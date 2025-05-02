@@ -1,5 +1,5 @@
 import { Project } from '../types';
-import noteImage from './assets/download (2).jpg'
+import noteImage from './assests/download (2).jpg'
 
 
 export const projects: Project[] = [
