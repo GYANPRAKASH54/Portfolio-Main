@@ -1,5 +1,5 @@
 import { Project } from '../types';
-import noteImage from './assests/download (2).jpg'
+import noteImage from '../assests/download (2).jpg'
 
 // Import local images
 import notesAppImage from '../assets/download(2).jpg';
