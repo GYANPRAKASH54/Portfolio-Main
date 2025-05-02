@@ -34,7 +34,7 @@ export const projects: Project[] = [
     title: 'PNR-ENQUIRY API-TESTING',
     description: 'A ap',
     technologies: ['Java', 'Api-Testing', 'Eclipse'],
-    image: '/src/assests/pnr.png',
+    image: 'https://asset.cloudinary.com/dzndu9gib/54df7aa9b73ad9cc6fda7dd78cf03b01',
     github: 'https://github.com/GYANPRAKASH54/PNR-ENquiry-Testing',
   
   },

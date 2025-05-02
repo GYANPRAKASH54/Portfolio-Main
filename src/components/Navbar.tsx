@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
 
             {/* Download CV Button */}
             <a
-              href="/src/assests/GyanCV4.pdf"
+              href="GyanCV4.pdf"
               download
               className="text-sm font-medium px-4 py-2 rounded-md border border-purple-500 text-purple-400 hover:bg-purple-600/20 transition-all duration-300"
             >
