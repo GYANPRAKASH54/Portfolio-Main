@@ -8,7 +8,7 @@ export const projects: Project[] = [
     title: 'Notes Management App',
     description: 'A productivity app that helps users manage notes.',
     technologies: ['React', 'Node.js', 'Express.js', 'MongoDb'],
-    image: "noteImage",
+    image: noteImage,
     github:'https://github.com/GYANPRAKASH54/Notes-Me.-Web-App',
     link: '/',
   },
