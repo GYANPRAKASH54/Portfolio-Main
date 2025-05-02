@@ -1,16 +1,18 @@
 import { Project } from '../types';
+import noteImage from './assets/download (2).jpg'
 
 
 export const projects: Project[] = [
-  {
-    id: 1,
-    title: 'Notes Management App',
-    description: 'A productivity app that helps users manage notes.',
-    technologies: ['React', 'Node.js', 'Express.js', 'MongoDb'],
-    image: "/src/download (2).jpg",
-    github:'https://github.com/GYANPRAKASH54/Notes-Me.-Web-App',
-    link: '/',
-  },
+const project = {
+  id: 1,
+  title: 'Notes Management App',
+  description: 'A productivity app that helps users manage notes.',
+  technologies: ['React', 'Node.js', 'Express.js', 'MongoDb'],
+  image: noteImage,
+  github: 'https://github.com/GYANPRAKASH54/Notes-Me.-Web-App',
+  link: '/',
+};
+
   {
     id: 2,
     title: 'Weather Forecast App',
