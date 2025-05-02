@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImage from '../assets/profile.png'; // Correct import path
 
 const AboutSection: React.FC = () => {
   return (
@@ -60,7 +61,7 @@ const AboutSection: React.FC = () => {
             <div className="relative">
               <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto overflow-hidden rounded-lg border-2 border-purple-500 z-10">
                 <img
-                  src="/src/assests/profile.JPG"
+                  src={profileImage}
                   alt="Gyan Prakash"
                   className="absolute inset-0 w-full h-full object-cover z-10"
                 />

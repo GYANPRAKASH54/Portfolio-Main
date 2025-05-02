@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Code, Zap } from 'lucide-react';
 import { navItems } from '../data/profileData';
+import cv from '../assets/GyanCV4.pdf';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,7 +53,7 @@ const Navbar: React.FC = () => {
 
             {/* Download CV Button */}
             <a
-              href="GyanCV4.pdf"
+              href={cv}
               download
               className="text-sm font-medium px-4 py-2 rounded-md border border-purple-500 text-purple-400 hover:bg-purple-600/20 transition-all duration-300"
             >
