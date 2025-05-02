@@ -1,8 +1,5 @@
 import { Project } from '../types';
-import noteImage from '../assests/download (2).jpg'
-
-// Import local images
-import notesAppImage from '../assets/download(2).jpg';
+import noteImage from '../assests/download(2).jpg'
 import pnrImage from '../assets/pnr.png';
 
 export const projects: Project[] = [
@@ -11,7 +8,7 @@ export const projects: Project[] = [
     title: 'Notes Management App',
     description: 'A productivity app that helps users manage notes.',
     technologies: ['React', 'Node.js', 'Express.js', 'MongoDb'],
-    image: "/src/assests/download (2).jpg",
+    image: "noteImage",
     github:'https://github.com/GYANPRAKASH54/Notes-Me.-Web-App',
     link: '/',
   },
