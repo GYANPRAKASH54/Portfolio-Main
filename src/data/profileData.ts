@@ -33,7 +33,7 @@ export const socialLinks: SocialLink[] = [
   {
     name: 'Twitter',
     icon: 'Twitter',
-    url: 'https://x.com/gyanp2552?t=gCeeNqn90r4HRuERkqnyNQ&s=09',
+    url: 'https://x.com/gyanp2552?t=R0iH05F6C_XKBKbCVxLD6A&s=03',
   },
   {
     name: 'Email',
