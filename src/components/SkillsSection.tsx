@@ -85,7 +85,7 @@ const SkillsSection: React.FC = () => {
           </h3>
           
           <div className="flex flex-wrap justify-center gap-4">
-            {['Responsive Design', 'CI/CD', 'Test Automation', 'Performance Testing', 'Agile/Scrum', 'SEO', 'API Design', 'DevOps'].map((skill) => (
+            {['Responsive Design', 'Database Management', 'Test Automation', 'Performance Testing', 'Agile/Scrum',  'API Testing', 'DevOps'].map((skill) => (
               <span 
                 key={skill}
                 className="px-4 py-2 bg-gray-800 text-gray-300 rounded-full border border-gray-700 hover:border-cyan-500 hover:text-cyan-400 hover:shadow-glow-sm transition-all duration-300"

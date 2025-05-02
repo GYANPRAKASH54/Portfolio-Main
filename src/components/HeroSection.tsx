@@ -8,12 +8,12 @@ const HeroSection: React.FC = () => {
       'Web Developer',
       'Software Tester',
       'Problem Solver',
-      'UI/UX Enthusiast',
+      '3D Model Maker',
       'Tech Explorer',
     ],
     typeSpeed: 80,
     deleteSpeed: 50,
-    delayBetweenWords: 2000,
+    delayBetweenWords: 50,
   });
 
   return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ExternalLink, Github, ChevronRight, ChevronLeft } from 'lucide-react';
-import { projects } from '../data/profileData';
+import { projects } from '../data/projects';
 import type { Project } from '../types';
 
 const ProjectsSection: React.FC = () => {
@@ -59,7 +59,7 @@ const ProjectsSection: React.FC = () => {
           >
             All
           </button>
-          {['React', 'JavaScript', 'TypeScript', 'API'].map((tech) => (
+          {['React', 'Api-Testing', 'API'].map((tech) => (
             <button
               key={tech}
               onClick={() => setFilter(tech)}
